@@ -17,7 +17,15 @@ main {
 
 }
 
+hr {
+    border: 1px solid #D1D1D1;
+
+}
+
 /* top players style  */
+.top-players {
+    margin-bottom: 30px;
+}
 
 .section-title {
     color: #562EFF;
