@@ -99,3 +99,17 @@ hr {
     Width: 224px;
     Height: 104px;
 }
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+
+}
