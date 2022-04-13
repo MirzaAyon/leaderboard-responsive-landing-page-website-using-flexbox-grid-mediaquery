@@ -95,9 +95,21 @@ hr {
 }
 
 /* courses style */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
 .course .course-banner img {
     Width: 224px;
     Height: 104px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .fa-star {
@@ -112,4 +124,23 @@ hr {
 .fa-star.empty {
     color: #AEAEAE;
 
+}
+
+.course-title {
+    font-size: 21px;
+    color: #1E1E1E;
+}
+
+.course {
+    width: 252px;
+
+
+    /* ekta box shadow dite hbe */
+
+}
+
+.course-duration {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: pink;
 }
