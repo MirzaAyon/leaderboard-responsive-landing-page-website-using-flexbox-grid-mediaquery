@@ -144,3 +144,23 @@ hr {
     border-radius: 10px;
     background-color: pink;
 }
+
+/* media queries */
+/*Mobile Device */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        /* background-color: red; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+}
